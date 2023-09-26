@@ -1,0 +1,21 @@
+table {
+  font-family: monospace;
+}
+
+trinth-child(odd) {
+  background-color: 465362;
+}
+
+trinth-child(even) {
+  background-color: C2EABD;
+}
+
+th {
+  background-color: lightblue;
+  color: black;
+}
+
+tr {
+  background-color: lightblue;
+  color: black;
+}
