@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales | Salmon Cookies</title>
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Salmon Cookies Stand sales</h1>
+    </header>
+    <main>
+      <table id="salesData"></table>
+      <form>
+        <fieldset>
+          <legend>Add another store!</legend>
+          <label for="name">Store</label>
+          <input name="location" type="text" id="name" />
+
+          <br />
+
+          <label for="number">minimum customer</label>
+          <input name="minCust" type="number" id="miCust" />
+
+          <br />
+
+          <label for="name">maximum customer</label>
+          <input name="maxCust" type="text" id="maxCust" />
+
+          <br />
+
+          <label for="name">average cookies sold per hour</label>
+          <input name="average" type="text" id="average" />
+
+          <br />
+
+          <button>Add to table</button>
+        </fieldset>
+      </form>
+      <div id="subs"></div>
+    </main>
+  </body>
+</html>
