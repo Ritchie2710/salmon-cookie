@@ -130,7 +130,27 @@ form.addEventListener("submit", function (event) {
   const maxCust = event.target.maxCust.value;
   const average = event.target.average.value;
 
-  const newStore = new CookieStore(location, minCust, maxCust, average);
+  const newStore = new CookieStore(location, +minCust, +maxCust, +average);
 
   newStore.render();
 });
+console.log();
+// function renderTotalRow() {
+//   const th = document.createElement("th");
+//   th.textContent = "hourly Total";
+//   tr.appendChild(th);
+
+//   for (let i = 0; i < hours.length; i++) {
+//     let hourlyTotal = 0;
+//     for (let k = 0; k < CookieStores.length; k++)
+//       hourlyTotal = hourlyTotal + CookieStores(k).cookiesPerHour(i);
+//   }
+
+//   const td = document.getElementById("td");
+//   td.textContent = hourlyTotal;
+//   tr.appendChild(td);
+
+//   table.appendChold(tr);
+// }
+
+// renderTotalRow();
